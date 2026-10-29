@@ -2,9 +2,9 @@ package com.example.ejercicioconcurrencia2;
 
 public class Evento {
 
-    private String hora;
-    private String estado;
-    private String detalle;
+    private final String hora;
+    private final String estado;
+    private final String detalle;
 
     public Evento(String hora, String estado, String detalle) {
         this.hora = hora;
