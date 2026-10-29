@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="804.0" prefWidth="767.0" spacing="20.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ejercicioconcurrencia2.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <Label prefHeight="42.0" prefWidth="498.0" text="Cancelacion de 30 pedidos">
+         <font>
+            <Font name="JetBrainsMono NF ExtraBold" size="30.0" />
+         </font>
+      </Label>
+      <HBox prefHeight="37.0" prefWidth="727.0" spacing="15.0">
+         <children>
+            <Label text="Estado: " />
+            <Label text="Listo" />
+         </children>
+      </HBox>
+      <ProgressBar prefHeight="20.0" prefWidth="724.0" progress="0.0" />
+      <Label text="Pedidos completados: " />
+   </children>
+</VBox>
