@@ -4,5 +4,6 @@ module com.example.ejercicioconcurrencia2 {
 
 
     opens com.example.ejercicioconcurrencia2 to javafx.fxml;
+    opens com.example.ejercicioconcurrencia2.controller to javafx.fxml;
     exports com.example.ejercicioconcurrencia2;
 }
